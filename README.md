@@ -9,4 +9,11 @@ This notebook shows how we were able to classify a song as a 'Mainstay' or a 'Vi
 
 Out of 1032 unique tracks in the Spotify Top 200 Charts, we were able to identify 38 Mainstay and 120 Viral songs.
 
+## 2_Create_Recommender_Engine_Pool_noxv2bsampledsets
+
+We were able to get sample track data for each genre by searching each genre as a keyword in Spotify Search and selecting the top playlists with the keyword in its name. A portion of the songs here were then used as a training pool for the kNN Algorithm. Normalization/Scaling of data was also done due to some audio features like loudness and tempo being much larger than the rest (which were usually within the 0 to 1 range). We next built the kNN Algorith using the different audio features as the feature columns with genre as the target. We were able to get 59% Accuracy after cross-validation and tweaking the number of genres to be used. It is worth noting that getting a very high accuracy score for a genre classification model such as this is extremely difficult given the fact that most songs do not have an official genre classification and would often have features which overlap between two or more genres. After the model was created, we used it to classify the predicted genres of all the other songs which were in our dataset.
+
+
 For our group's presentation on the Spotify Recommender Engine project, please refer to this [link](https://docs.google.com/presentation/d/1IhwqKKCQs-BBfx8iKkVikn6-JZHX8VzT5PewdHS091o/).
+
+Special thanks to [Eskwelabs](https://www.eskwelabs.com/)  and our instructor JC Peralta!
