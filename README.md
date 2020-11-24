@@ -25,7 +25,12 @@ This short notebook is simply showing how we were able to merge our previous Dat
 
 Here, we examined closely the specific audio features for Mainstay songs, Viral songs, and Ben&Ben Songs (an actual popular Filipino Band Bean&Bean is aspiring to be!) to identify what really defines them most. 
 
-To summarize, our fictional client, Bean&Bean, wants to become a breakout artist in Spotify. Their music is patterned after Ben&Ben, a popular Folk band in the Philippines. We ran Ben&Ben's songs in the recommender engine to identify Filipino artists with similar audio features whom Bean&Bean can collaborate with to boost their popularity and increase their chances of becoming a break out artist. We also looked at Mainstay and Viral songs to check the audio features that stood out for each group. The immediate short term strategy is to become viral first, before transitioning to the long term strategy of becoming a mainstay.
+To summarize, our fictional client, Bean&Bean, wants to become a breakout artist in Spotify. Their music is patterned after Ben&Ben, a popular Folk band in the Philippines. We ran Ben&Ben's songs in the recommender engine to identify Filipino artists with similar audio features whom Bean&Bean can collaborate with to boost their popularity and increase their chances of becoming a break out artist. 
+
+![Screenshot](RecommendedSongs_ForSeed_KathangIsip.png)
+*10 Song Recommendations obtained from the algorithm for the song Kathang Isip by Ben & Ben*
+
+We also looked at Mainstay and Viral songs to check the audio features that stood out for each group. The immediate short term strategy is to become viral first, before transitioning to the long term strategy of becoming a mainstay.
 
 For our group's presentation on the Spotify Recommender Engine project, please refer to this [link](https://docs.google.com/presentation/d/1IhwqKKCQs-BBfx8iKkVikn6-JZHX8VzT5PewdHS091o/).
 
