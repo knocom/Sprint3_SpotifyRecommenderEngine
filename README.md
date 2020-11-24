@@ -29,4 +29,4 @@ To summarize, our fictional client, Bean&Bean, wants to become a breakout artist
 
 For our group's presentation on the Spotify Recommender Engine project, please refer to this [link](https://docs.google.com/presentation/d/1IhwqKKCQs-BBfx8iKkVikn6-JZHX8VzT5PewdHS091o/).
 
-Special thanks to [Eskwelabs](https://www.eskwelabs.com/) and our instructor JC Peralta!
+Special thanks to [Eskwelabs](https://www.eskwelabs.com/) and our instructor [JC Peralta](https://github.com/jcacperalta)!
